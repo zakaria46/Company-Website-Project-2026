@@ -38,3 +38,21 @@ body {
 #about-us p {
     line-height: 2.3;
 }
+
+#sectors {
+    /* display: none; */
+}
+
+#sectors p {
+    font-size: 14px;
+}
+
+#benefits {
+    background: rgb(75, 158, 75);
+    color: #fff;
+}
+
+#benefits .benefits-box{
+    background: #fff;
+    color: green;
+}
