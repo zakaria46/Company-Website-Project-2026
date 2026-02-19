@@ -56,3 +56,23 @@ body {
     background: #fff;
     color: green;
 }
+
+@keyframes slideUp {
+    from { bottom: 0; }
+    to { bottom: 30px; }
+}
+
+@keyframes slideBack {
+    from { bottom: 30px; }
+    to { bottom: 0; }
+}
+
+#benefits .benefits-box:hover {
+    position: relative;
+    animation: slideUp 1s forwards;
+}
+
+#benefits .benefits-box {
+    position: relative;
+    animation: slideBack 0.5s forwards;
+}

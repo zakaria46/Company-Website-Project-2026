@@ -28,3 +28,8 @@ $(window).on('scroll', function() {
 });
 
 // Math.round((window.outerWidth / window.innerWidth) * 100)
+
+// Slide the box up when hovering
+// $(".benefits-box").hover(function(){
+//   $(this).animate({bottom: '20px'});
+// }); 
